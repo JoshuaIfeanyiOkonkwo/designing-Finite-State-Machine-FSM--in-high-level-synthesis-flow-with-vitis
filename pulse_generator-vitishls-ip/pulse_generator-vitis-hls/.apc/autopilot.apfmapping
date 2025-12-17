@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="pulse_generator.cpp" path="/home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_generator-vitishls-ip/src/pulse_generator.cpp"/>
+    <originFiles name="pulse_generator.h" path="/home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_generator-vitishls-ip/src/pulse_generator.h"/>
+  </source>
+  <testbench>
+    <originFiles name="pulse_generator-tb.cpp" path="/home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_generator-vitishls-ip/src/pulse_generator-tb.cpp"/>
+    <originFiles name="pulse_generator-tb.h" path="/home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_generator-vitishls-ip/src/pulse_generator-tb.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

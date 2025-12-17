@@ -1,0 +1,432 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x25629666B27305B2",
+      "device": "xc7z020clg484-1",
+      "gen_directory": "../../../../vending_machine_system.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.1",
+      "validated": "true"
+    },
+    "design_tree": {
+      "vending_machine_0": "",
+      "pulse_generator_0": "",
+      "pulse_generator_1": "",
+      "pulse_generator_2": "",
+      "pulse_generator_3": "",
+      "pulse_detector_0": "",
+      "pulse_detector_1": "",
+      "pulse_detector_2": "",
+      "pulse_detector_3": "",
+      "xlslice_0": "",
+      "xlslice_1": "",
+      "debouncer_0": "",
+      "debouncer_1": "",
+      "debouncer_2": "",
+      "debouncer_3": ""
+    },
+    "ports": {
+      "GCLK": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "SW0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "design_1_GCLK",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "SW0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "BTNL": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "BTNR": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "BTNC": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "BTND": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "LED3": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "LED2": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "LED1": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "LED0": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "vending_machine_0": {
+        "vlnv": "xilinx.com:hls:vending_machine:1.0",
+        "ip_revision": "2114378975",
+        "xci_name": "design_1_vending_machine_0_0",
+        "xci_path": "ip\\design_1_vending_machine_0_0\\design_1_vending_machine_0_0.xci",
+        "inst_hier_path": "vending_machine_0"
+      },
+      "pulse_generator_0": {
+        "vlnv": "xilinx.com:hls:pulse_generator:1.0",
+        "ip_revision": "2113812324",
+        "xci_name": "design_1_pulse_generator_0_0",
+        "xci_path": "ip\\design_1_pulse_generator_0_0\\design_1_pulse_generator_0_0.xci",
+        "inst_hier_path": "pulse_generator_0"
+      },
+      "pulse_generator_1": {
+        "vlnv": "xilinx.com:hls:pulse_generator:1.0",
+        "ip_revision": "2113812324",
+        "xci_name": "design_1_pulse_generator_0_1",
+        "xci_path": "ip\\design_1_pulse_generator_0_1\\design_1_pulse_generator_0_1.xci",
+        "inst_hier_path": "pulse_generator_1"
+      },
+      "pulse_generator_2": {
+        "vlnv": "xilinx.com:hls:pulse_generator:1.0",
+        "ip_revision": "2113812324",
+        "xci_name": "design_1_pulse_generator_0_2",
+        "xci_path": "ip\\design_1_pulse_generator_0_2\\design_1_pulse_generator_0_2.xci",
+        "inst_hier_path": "pulse_generator_2"
+      },
+      "pulse_generator_3": {
+        "vlnv": "xilinx.com:hls:pulse_generator:1.0",
+        "ip_revision": "2113812324",
+        "xci_name": "design_1_pulse_generator_2_0",
+        "xci_path": "ip\\design_1_pulse_generator_2_0\\design_1_pulse_generator_2_0.xci",
+        "inst_hier_path": "pulse_generator_3"
+      },
+      "pulse_detector_0": {
+        "vlnv": "xilinx.com:hls:pulse_detector:1.0",
+        "ip_revision": "2113812375",
+        "xci_name": "design_1_pulse_detector_0_0",
+        "xci_path": "ip\\design_1_pulse_detector_0_0\\design_1_pulse_detector_0_0.xci",
+        "inst_hier_path": "pulse_detector_0"
+      },
+      "pulse_detector_1": {
+        "vlnv": "xilinx.com:hls:pulse_detector:1.0",
+        "ip_revision": "2113812375",
+        "xci_name": "design_1_pulse_detector_0_1",
+        "xci_path": "ip\\design_1_pulse_detector_0_1\\design_1_pulse_detector_0_1.xci",
+        "inst_hier_path": "pulse_detector_1"
+      },
+      "pulse_detector_2": {
+        "vlnv": "xilinx.com:hls:pulse_detector:1.0",
+        "ip_revision": "2113812375",
+        "xci_name": "design_1_pulse_detector_0_2",
+        "xci_path": "ip\\design_1_pulse_detector_0_2\\design_1_pulse_detector_0_2.xci",
+        "inst_hier_path": "pulse_detector_2"
+      },
+      "pulse_detector_3": {
+        "vlnv": "xilinx.com:hls:pulse_detector:1.0",
+        "ip_revision": "2113812375",
+        "xci_name": "design_1_pulse_detector_0_3",
+        "xci_path": "ip\\design_1_pulse_detector_0_3\\design_1_pulse_detector_0_3.xci",
+        "inst_hier_path": "pulse_detector_3"
+      },
+      "xlslice_0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "ip_revision": "4",
+        "xci_name": "design_1_xlslice_0_0",
+        "xci_path": "ip\\design_1_xlslice_0_0\\design_1_xlslice_0_0.xci",
+        "inst_hier_path": "xlslice_0"
+      },
+      "xlslice_1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "ip_revision": "4",
+        "xci_name": "design_1_xlslice_0_1",
+        "xci_path": "ip\\design_1_xlslice_0_1\\design_1_xlslice_0_1.xci",
+        "inst_hier_path": "xlslice_1"
+      },
+      "debouncer_0": {
+        "vlnv": "xilinx.com:hls:debouncer:1.0",
+        "ip_revision": "2114382734",
+        "xci_name": "design_1_debouncer_0_5",
+        "xci_path": "ip\\design_1_debouncer_0_5\\design_1_debouncer_0_5.xci",
+        "inst_hier_path": "debouncer_0"
+      },
+      "debouncer_1": {
+        "vlnv": "xilinx.com:hls:debouncer:1.0",
+        "ip_revision": "2114382734",
+        "xci_name": "design_1_debouncer_1_0",
+        "xci_path": "ip\\design_1_debouncer_1_0\\design_1_debouncer_1_0.xci",
+        "inst_hier_path": "debouncer_1"
+      },
+      "debouncer_2": {
+        "vlnv": "xilinx.com:hls:debouncer:1.0",
+        "ip_revision": "2114382734",
+        "xci_name": "design_1_debouncer_2_0",
+        "xci_path": "ip\\design_1_debouncer_2_0\\design_1_debouncer_2_0.xci",
+        "inst_hier_path": "debouncer_2"
+      },
+      "debouncer_3": {
+        "vlnv": "xilinx.com:hls:debouncer:1.0",
+        "ip_revision": "2114382734",
+        "xci_name": "design_1_debouncer_3_0",
+        "xci_path": "ip\\design_1_debouncer_3_0\\design_1_debouncer_3_0.xci",
+        "inst_hier_path": "debouncer_3"
+      }
+    },
+    "nets": {
+      "BTNC_1": {
+        "ports": [
+          "BTNC",
+          "debouncer_2/btn_in"
+        ]
+      },
+      "BTND_1": {
+        "ports": [
+          "BTND",
+          "debouncer_3/btn_in"
+        ]
+      },
+      "BTNL_1": {
+        "ports": [
+          "BTNL",
+          "debouncer_1/btn_in"
+        ]
+      },
+      "BTNR_1": {
+        "ports": [
+          "BTNR",
+          "debouncer_0/btn_in"
+        ]
+      },
+      "ap_clk_0_1": {
+        "ports": [
+          "GCLK",
+          "pulse_generator_0/ap_clk",
+          "pulse_generator_1/ap_clk",
+          "pulse_generator_2/ap_clk",
+          "pulse_generator_3/ap_clk",
+          "pulse_detector_0/ap_clk",
+          "pulse_detector_1/ap_clk",
+          "pulse_detector_2/ap_clk",
+          "pulse_detector_3/ap_clk",
+          "vending_machine_0/ap_clk",
+          "debouncer_0/ap_clk",
+          "debouncer_1/ap_clk",
+          "debouncer_2/ap_clk",
+          "debouncer_3/ap_clk"
+        ]
+      },
+      "ap_rst_0_1": {
+        "ports": [
+          "SW0",
+          "pulse_generator_0/ap_rst",
+          "pulse_generator_1/ap_rst",
+          "pulse_generator_2/ap_rst",
+          "pulse_generator_3/ap_rst",
+          "pulse_detector_0/ap_rst",
+          "pulse_detector_1/ap_rst",
+          "pulse_detector_2/ap_rst",
+          "pulse_detector_3/ap_rst",
+          "vending_machine_0/ap_rst",
+          "debouncer_0/ap_rst",
+          "debouncer_1/ap_rst",
+          "debouncer_2/ap_rst",
+          "debouncer_3/ap_rst"
+        ]
+      },
+      "debouncer_0_btn_out": {
+        "ports": [
+          "debouncer_0/btn_out",
+          "pulse_generator_1/input_r"
+        ]
+      },
+      "debouncer_1_btn_out": {
+        "ports": [
+          "debouncer_1/btn_out",
+          "pulse_generator_0/input_r"
+        ]
+      },
+      "debouncer_2_btn_out": {
+        "ports": [
+          "debouncer_2/btn_out",
+          "pulse_generator_2/input_r"
+        ]
+      },
+      "debouncer_3_btn_out": {
+        "ports": [
+          "debouncer_3/btn_out",
+          "pulse_generator_3/input_r"
+        ]
+      },
+      "pulse_detector_0_out_r": {
+        "ports": [
+          "pulse_detector_0/out_r",
+          "LED3"
+        ]
+      },
+      "pulse_detector_1_out_r": {
+        "ports": [
+          "pulse_detector_1/out_r",
+          "LED2"
+        ]
+      },
+      "pulse_detector_2_out_r": {
+        "ports": [
+          "pulse_detector_2/out_r",
+          "LED1"
+        ]
+      },
+      "pulse_detector_3_out_r": {
+        "ports": [
+          "pulse_detector_3/out_r",
+          "LED0"
+        ]
+      },
+      "pulse_generator_0_pulse": {
+        "ports": [
+          "pulse_generator_0/pulse",
+          "vending_machine_0/nickel_in"
+        ]
+      },
+      "pulse_generator_1_pulse": {
+        "ports": [
+          "pulse_generator_1/pulse",
+          "vending_machine_0/dime_in"
+        ]
+      },
+      "pulse_generator_2_pulse": {
+        "ports": [
+          "pulse_generator_2/pulse",
+          "vending_machine_0/quarter_in"
+        ]
+      },
+      "pulse_generator_3_pulse": {
+        "ports": [
+          "pulse_generator_3/pulse",
+          "pulse_detector_3/reset",
+          "pulse_detector_2/reset",
+          "pulse_detector_1/reset",
+          "pulse_detector_0/reset",
+          "vending_machine_0/thanks_in"
+        ]
+      },
+      "vending_machine_0_candy_out": {
+        "ports": [
+          "vending_machine_0/candy_out",
+          "pulse_detector_0/pulse"
+        ]
+      },
+      "vending_machine_0_dime_out": {
+        "ports": [
+          "vending_machine_0/dime_out",
+          "xlslice_0/Din",
+          "xlslice_1/Din"
+        ]
+      },
+      "vending_machine_0_nickel_out": {
+        "ports": [
+          "vending_machine_0/nickel_out",
+          "pulse_detector_1/pulse"
+        ]
+      },
+      "xlslice_0_Dout": {
+        "ports": [
+          "xlslice_0/Dout",
+          "pulse_detector_2/pulse"
+        ]
+      },
+      "xlslice_1_Dout": {
+        "ports": [
+          "xlslice_1/Dout",
+          "pulse_detector_3/pulse"
+        ]
+      }
+    }
+  }
+}

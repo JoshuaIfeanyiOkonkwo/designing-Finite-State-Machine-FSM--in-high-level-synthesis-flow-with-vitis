@@ -1,0 +1,352 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 18:15:20 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_3_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114382688) to (Rev. 2114382734)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 18:15:20 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_2_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114382688) to (Rev. 2114382734)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 18:15:19 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_1_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114382688) to (Rev. 2114382734)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 18:15:19 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_0_5'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_0_5 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114382688) to (Rev. 2114382734)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 17:29:36 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_3_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114382615) to (Rev. 2114382688)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 17:29:36 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_2_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114382615) to (Rev. 2114382688)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 17:29:36 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_1_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114382615) to (Rev. 2114382688)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 17:29:36 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_0_5'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_0_5 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114382615) to (Rev. 2114382688)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 16:18:37 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_3_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114378962) to (Rev. 2114382615)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 16:18:37 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_2_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114378962) to (Rev. 2114382615)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 16:18:37 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_1_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114378962) to (Rev. 2114382615)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  8 16:18:37 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_0_5'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_0_5 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114378962) to (Rev. 2114382615)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sat Dec  6 03:41:54 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_vending_machine_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_vending_machine_0_0 (xilinx.com:hls:vending_machine:1.0) from (Rev. 2114377708) to (Rev. 2114378975)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sat Dec  6 03:25:22 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_3_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_3_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114378945) to (Rev. 2114378962)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sat Dec  6 03:25:22 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_2_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_2_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114378945) to (Rev. 2114378962)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sat Dec  6 03:25:22 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_1_0 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114378945) to (Rev. 2114378962)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Sat Dec  6 03:25:22 2025
+| Host         : LAPTOP-TSMU9UUL running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_debouncer_0_5'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_debouncer_0_5 (xilinx.com:hls:debouncer:1.0) from (Rev. 2114378945) to (Rev. 2114378962)
+

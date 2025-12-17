@@ -1,0 +1,5 @@
+<pragmas>
+<pragma file="src/pulse_generator.cpp" line="6" pragmaType="interface" parentfunction="pulse_generator" mode="ap_none" port="input" name="" register="0"/>
+<pragma file="src/pulse_generator.cpp" line="7" pragmaType="interface" parentfunction="pulse_generator" mode="ap_none" port="pulse" name="" register="0"/>
+<pragma file="src/pulse_generator.cpp" line="8" pragmaType="interface" parentfunction="pulse_generator" mode="ap_ctrl_none" port="return" name=""/>
+</pragmas>

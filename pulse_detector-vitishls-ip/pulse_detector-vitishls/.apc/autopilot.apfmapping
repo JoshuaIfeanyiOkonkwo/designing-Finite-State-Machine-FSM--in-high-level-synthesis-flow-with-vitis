@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="pulse_detector.cpp" path="/home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_detector-vitishls-ip/src/pulse_detector.cpp"/>
+    <originFiles name="pulse_detector.h" path="/home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_detector-vitishls-ip/src/pulse_detector.h"/>
+  </source>
+  <testbench>
+    <originFiles name="pulse_detector-tb.cpp" path="/home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_detector-vitishls-ip/src/pulse_detector-tb.cpp"/>
+    <originFiles name="pulse_detector-tb.h" path="/home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_detector-vitishls-ip/src/pulse_detector-tb.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

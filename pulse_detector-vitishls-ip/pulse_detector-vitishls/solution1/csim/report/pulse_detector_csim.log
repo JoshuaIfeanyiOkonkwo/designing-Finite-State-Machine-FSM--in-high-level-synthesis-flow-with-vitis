@@ -1,0 +1,23 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../../src/pulse_detector.cpp in debug mode
+   Generating csim.exe
+ pulse = 0, reset = 0 | output = 0
+ pulse = 0, reset = 0 | output = 0
+ pulse = 0, reset = 0 | output = 0
+ pulse = 0, reset = 0 | output = 0
+ pulse = 0, reset = 0 | output = 0
+ pulse = 1, reset = 0 | output = 1
+ pulse = 0, reset = 0 | output = 1
+ pulse = 0, reset = 0 | output = 1
+ pulse = 0, reset = 0 | output = 1
+ pulse = 0, reset = 0 | output = 1
+ pulse = 0, reset = 0 | output = 1
+ pulse = 0, reset = 1 | output = 0
+ pulse = 0, reset = 0 | output = 0
+ pulse = 0, reset = 0 | output = 0
+ pulse = 0, reset = 0 | output = 0
+ pulse = 0, reset = 0 | output = 0
+ pulse = 0, reset = 0 | output = 0
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

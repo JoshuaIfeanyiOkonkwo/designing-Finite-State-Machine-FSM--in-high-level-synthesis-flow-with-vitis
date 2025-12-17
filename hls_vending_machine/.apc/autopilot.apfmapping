@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="vending_machine.cpp" path="C:\Users\joshu\Desktop\exercise_5\vending_machine-vitishls-files\vending_machine.cpp"/>
+    <originFiles name="vending_machine.h" path="C:\Users\joshu\Desktop\exercise_5\vending_machine-vitishls-files\vending_machine.h"/>
+  </source>
+  <testbench>
+    <originFiles name="vending_machine-tb.cpp" path="C:\Users\joshu\Desktop\exercise_5\vending_machine-vitishls-files\vending_machine-tb.cpp"/>
+    <originFiles name="vending_machine-tb.h" path="C:\Users\joshu\Desktop\exercise_5\vending_machine-vitishls-files\vending_machine-tb.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

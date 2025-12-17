@@ -1,0 +1,55 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch CLANG as the compiler.
+   Compiling ../../../../vending_machine-vitishls-files/vending_machine-tb.cpp in debug mode
+   Compiling ../../../../vending_machine-vitishls-files/vending_machine.cpp in debug mode
+   Generating csim.exe
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 1 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 1 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=1 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 1 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 1 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 1 nickel_out = 1 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=1 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 1 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 1 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 1 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 1 nickel_out = 1 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=1 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 1 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 1 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 1 nickel_out = 0 dime_out = 0b01
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=1 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 1 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 1 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 1 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 1 nickel_out = 1 dime_out = 0b01
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=1 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 1 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 1 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 1 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 1 nickel_out = 0 dime_out = 0b11
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=1 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 1 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 1 nickel_out = 0 dime_out = 0b0
+ nickel_in = 1 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=1 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+ nickel_in = 0 dime_in = 0 quarter_in = 0 thanks_in=0 |  candy_out = 0 nickel_out = 0 dime_out = 0b0
+All FSM tests passed!
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

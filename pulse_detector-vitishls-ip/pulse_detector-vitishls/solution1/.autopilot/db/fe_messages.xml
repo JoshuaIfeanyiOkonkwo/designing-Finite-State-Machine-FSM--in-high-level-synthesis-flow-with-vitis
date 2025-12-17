@@ -1,0 +1,18 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="/home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_detector-vitishls-ip/pulse_detector-vitishls/solution1/csynth.tcl:17:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="pulse_detector" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=pulse_detector" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="src/pulse_detector.cpp:29:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="pulse_detector" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="src/pulse_detector.cpp:30:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="pulse_detector" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=pulse" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="src/pulse_detector.cpp:31:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="pulse_detector" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=reset" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="src/pulse_detector.cpp:32:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="pulse_detector" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=out_r" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

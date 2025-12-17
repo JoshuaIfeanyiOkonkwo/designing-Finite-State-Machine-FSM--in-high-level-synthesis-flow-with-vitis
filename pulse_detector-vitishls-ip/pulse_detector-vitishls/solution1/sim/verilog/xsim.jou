@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# xsim v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Nov  7 16:14:21 2024
+# Process ID: 125573
+# Current directory: /home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_detector-vitishls-ip/pulse_detector-vitishls/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/pulse_detector/xsim_script.tcl}
+# Log file: /home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_detector-vitishls-ip/pulse_detector-vitishls/solution1/sim/verilog/xsim.log
+# Journal file: /home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_detector-vitishls-ip/pulse_detector-vitishls/solution1/sim/verilog/xsim.jou
+# Running On: minhLenovo, OS: Linux, CPU Frequency: 4116.623 MHz, CPU Physical cores: 16, Host memory: 16628 MB
+#-----------------------------------------------------------
+source xsim.dir/pulse_detector/xsim_script.tcl
+open_wave_config pulse_detector_dataflow_ana.wcfg
+source pulse_detector.tcl

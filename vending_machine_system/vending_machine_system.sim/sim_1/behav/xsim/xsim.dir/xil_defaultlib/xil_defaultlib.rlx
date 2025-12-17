@@ -1,0 +1,26 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd,1764985325,vhdl,,,,design_1_wrapper,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ipshared/3026/hdl/vhdl/debouncer.vhd,1764985326,vhdl,,,,debouncer,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ipshared/333f/hdl/vhdl/vending_machine.vhd,1764985325,vhdl,,,,vending_machine,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ipshared/aa7e/hdl/vhdl/pulse_detector.vhd,1764985325,vhdl,,,,pulse_detector,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ipshared/ed96/hdl/vhdl/pulse_generator.vhd,1764985325,vhdl,,,,pulse_generator,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_0_5/sim/design_1_debouncer_0_5.vhd,1764985326,vhdl,,,,design_1_debouncer_0_5,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_1_0/sim/design_1_debouncer_1_0.vhd,1764985326,vhdl,,,,design_1_debouncer_1_0,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_2_0/sim/design_1_debouncer_2_0.vhd,1764985326,vhdl,,,,design_1_debouncer_2_0,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_3_0/sim/design_1_debouncer_3_0.vhd,1764985326,vhdl,,,,design_1_debouncer_3_0,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_detector_0_0/sim/design_1_pulse_detector_0_0.vhd,1764985325,vhdl,,,,design_1_pulse_detector_0_0,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_detector_0_1/sim/design_1_pulse_detector_0_1.vhd,1764985325,vhdl,,,,design_1_pulse_detector_0_1,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_detector_0_2/sim/design_1_pulse_detector_0_2.vhd,1764985325,vhdl,,,,design_1_pulse_detector_0_2,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_detector_0_3/sim/design_1_pulse_detector_0_3.vhd,1764985325,vhdl,,,,design_1_pulse_detector_0_3,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_generator_0_0/sim/design_1_pulse_generator_0_0.vhd,1764985325,vhdl,,,,design_1_pulse_generator_0_0,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_generator_0_1/sim/design_1_pulse_generator_0_1.vhd,1764985325,vhdl,,,,design_1_pulse_generator_0_1,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_generator_0_2/sim/design_1_pulse_generator_0_2.vhd,1764985325,vhdl,,,,design_1_pulse_generator_0_2,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_generator_2_0/sim/design_1_pulse_generator_2_0.vhd,1764985325,vhdl,,,,design_1_pulse_generator_2_0,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_vending_machine_0_0/sim/design_1_vending_machine_0_0.vhd,1764985325,vhdl,,,,design_1_vending_machine_0_0,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_xlslice_0_0/sim/design_1_xlslice_0_0.v,1764985325,verilog,,C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_xlslice_0_1/sim/design_1_xlslice_0_1.v,,design_1_xlslice_0_0,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_xlslice_0_1/sim/design_1_xlslice_0_1.v,1764985326,verilog,,,,design_1_xlslice_0_1,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/sim/design_1.vhd,1764985325,vhdl,,,,design_1,,,,,,,,
+C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,

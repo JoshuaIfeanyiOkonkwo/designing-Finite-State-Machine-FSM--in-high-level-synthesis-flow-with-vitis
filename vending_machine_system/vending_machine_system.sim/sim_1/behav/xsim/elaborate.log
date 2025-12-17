@@ -1,0 +1,12 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3290] entity port 'btn_in' does not match with type std_logic of component port [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_0_5/sim/design_1_debouncer_0_5.vhd:72]
+ERROR: [VRFC 10-666] expression has 9 elements; expected 1 [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_0_5/sim/design_1_debouncer_0_5.vhd:72]
+ERROR: [VRFC 10-3290] entity port 'btn_out' does not match with type std_logic of component port [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_0_5/sim/design_1_debouncer_0_5.vhd:73]
+ERROR: [VRFC 10-666] expression has 9 elements; expected 1 [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_0_5/sim/design_1_debouncer_0_5.vhd:73]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

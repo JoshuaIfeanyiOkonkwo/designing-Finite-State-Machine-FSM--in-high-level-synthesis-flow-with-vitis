@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# xsim v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Dec 15 21:29:32 2025
+# Process ID: 23436
+# Current directory: C:/Users/joshu/Desktop/exercise_5/hls_vending_machine/solution1/sim/verilog
+# Command line: xsim.exe -source {xsim.dir/vending_machine/xsim_script.tcl}
+# Log file: C:/Users/joshu/Desktop/exercise_5/hls_vending_machine/solution1/sim/verilog/xsim.log
+# Journal file: C:/Users/joshu/Desktop/exercise_5/hls_vending_machine/solution1/sim/verilog\xsim.jou
+# Running On        :LAPTOP-TSMU9UUL
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2803 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16856 MB
+# Swap memory       :37398 MB
+# Total Virtual     :54254 MB
+# Available Virtual :27755 MB
+#-----------------------------------------------------------
+start_gui
+source xsim.dir/vending_machine/xsim_script.tcl
+open_wave_config vending_machine_dataflow_ana.wcfg
+source vending_machine.tcl
+close_sim

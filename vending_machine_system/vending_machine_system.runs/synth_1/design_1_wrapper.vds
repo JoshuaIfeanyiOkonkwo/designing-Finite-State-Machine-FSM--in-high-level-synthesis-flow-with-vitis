@@ -1,0 +1,430 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Dec  8 18:17:26 2025
+# Process ID: 21936
+# Current directory: C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1\vivado.jou
+# Running On        :LAPTOP-TSMU9UUL
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2803 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16856 MB
+# Swap memory       :40802 MB
+# Total Virtual     :57658 MB
+# Available Virtual :17282 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 515.203 ; gain = 197.676
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/hls_vending_machine'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/pulse_detector-vitishls-ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/pulse_generator-vitishls-ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/debouncer-vitishls-files'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.cache/ip 
+Command: read_checkpoint -auto_incremental -incremental C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top design_1_wrapper -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Device 21-9227] Part: xc7z020clg484-1 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 28544
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1408.043 ; gain = 450.039
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:30]
+INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:15' bound to instance 'design_1_i' of component 'design_1' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:34]
+INFO: [Synth 8-3491] module 'design_1_debouncer_0_5' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_debouncer_0_5_stub.vhdl:6' bound to instance 'debouncer_0' of component 'design_1_debouncer_0_5' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:216]
+INFO: [Synth 8-638] synthesizing module 'design_1_debouncer_0_5' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_debouncer_0_5_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_debouncer_1_0' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_debouncer_1_0_stub.vhdl:6' bound to instance 'debouncer_1' of component 'design_1_debouncer_1_0' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:223]
+INFO: [Synth 8-638] synthesizing module 'design_1_debouncer_1_0' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_debouncer_1_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_debouncer_2_0' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_debouncer_2_0_stub.vhdl:6' bound to instance 'debouncer_2' of component 'design_1_debouncer_2_0' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:230]
+INFO: [Synth 8-638] synthesizing module 'design_1_debouncer_2_0' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_debouncer_2_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_debouncer_3_0' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_debouncer_3_0_stub.vhdl:6' bound to instance 'debouncer_3' of component 'design_1_debouncer_3_0' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:237]
+INFO: [Synth 8-638] synthesizing module 'design_1_debouncer_3_0' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_debouncer_3_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_pulse_detector_0_0' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_detector_0_0_stub.vhdl:6' bound to instance 'pulse_detector_0' of component 'design_1_pulse_detector_0_0' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:244]
+INFO: [Synth 8-638] synthesizing module 'design_1_pulse_detector_0_0' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_detector_0_0_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'design_1_pulse_detector_0_1' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_detector_0_1_stub.vhdl:6' bound to instance 'pulse_detector_1' of component 'design_1_pulse_detector_0_1' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:252]
+INFO: [Synth 8-638] synthesizing module 'design_1_pulse_detector_0_1' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_detector_0_1_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'design_1_pulse_detector_0_2' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_detector_0_2_stub.vhdl:6' bound to instance 'pulse_detector_2' of component 'design_1_pulse_detector_0_2' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'design_1_pulse_detector_0_2' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_detector_0_2_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'design_1_pulse_detector_0_3' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_detector_0_3_stub.vhdl:6' bound to instance 'pulse_detector_3' of component 'design_1_pulse_detector_0_3' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:268]
+INFO: [Synth 8-638] synthesizing module 'design_1_pulse_detector_0_3' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_detector_0_3_stub.vhdl:17]
+INFO: [Synth 8-3491] module 'design_1_pulse_generator_0_0' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_generator_0_0_stub.vhdl:6' bound to instance 'pulse_generator_0' of component 'design_1_pulse_generator_0_0' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:276]
+INFO: [Synth 8-638] synthesizing module 'design_1_pulse_generator_0_0' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_generator_0_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_pulse_generator_0_1' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_generator_0_1_stub.vhdl:6' bound to instance 'pulse_generator_1' of component 'design_1_pulse_generator_0_1' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:283]
+INFO: [Synth 8-638] synthesizing module 'design_1_pulse_generator_0_1' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_generator_0_1_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_pulse_generator_0_2' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_generator_0_2_stub.vhdl:6' bound to instance 'pulse_generator_2' of component 'design_1_pulse_generator_0_2' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:290]
+INFO: [Synth 8-638] synthesizing module 'design_1_pulse_generator_0_2' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_generator_0_2_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_pulse_generator_2_0' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_generator_2_0_stub.vhdl:6' bound to instance 'pulse_generator_3' of component 'design_1_pulse_generator_2_0' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:297]
+INFO: [Synth 8-638] synthesizing module 'design_1_pulse_generator_2_0' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_pulse_generator_2_0_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'design_1_vending_machine_0_0' declared at 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_vending_machine_0_0_stub.vhdl:6' bound to instance 'vending_machine_0' of component 'design_1_vending_machine_0_0' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:304]
+INFO: [Synth 8-638] synthesizing module 'design_1_vending_machine_0_0' [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/.Xil/Vivado-21936-LAPTOP-TSMU9UUL/realtime/design_1_vending_machine_0_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_0' declared at 'c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_0/synth/design_1_xlslice_0_0.v:53' bound to instance 'xlslice_0' of component 'design_1_xlslice_0_0' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:316]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_0_0' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_0/synth/design_1_xlslice_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_4_xlslice' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ipshared/a97c/hdl/xlslice_v1_0_vl_rfs.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_4_xlslice' (0#1) [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ipshared/a97c/hdl/xlslice_v1_0_vl_rfs.v:58]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_0_0' (0#1) [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_0/synth/design_1_xlslice_0_0.v:53]
+INFO: [Synth 8-3491] module 'design_1_xlslice_0_1' declared at 'c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_1/synth/design_1_xlslice_0_1.v:53' bound to instance 'xlslice_1' of component 'design_1_xlslice_0_1' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:322]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xlslice_0_1' [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_1/synth/design_1_xlslice_0_1.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xlslice_0_1' (0#1) [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_xlslice_0_1/synth/design_1_xlslice_0_1.v:53]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (0#1) [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/synth/design_1.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (0#1) [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:30]
+WARNING: [Synth 8-7129] Port Din[31] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[30] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[29] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[28] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[27] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[26] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[25] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[24] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[23] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[22] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[21] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[20] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[19] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[18] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[17] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[16] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[15] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[14] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[13] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[12] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[11] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[10] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[9] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[8] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[7] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[6] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[5] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[4] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[3] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[2] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[1] in module xlslice_v1_0_4_xlslice is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1517.883 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_vending_machine_0_0/design_1_vending_machine_0_0/design_1_vending_machine_0_0_in_context.xdc] for cell 'design_1_i/vending_machine_0'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_vending_machine_0_0/design_1_vending_machine_0_0/design_1_vending_machine_0_0_in_context.xdc] for cell 'design_1_i/vending_machine_0'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_generator_0_0/design_1_pulse_generator_0_0/design_1_pulse_generator_0_0_in_context.xdc] for cell 'design_1_i/pulse_generator_0'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_generator_0_0/design_1_pulse_generator_0_0/design_1_pulse_generator_0_0_in_context.xdc] for cell 'design_1_i/pulse_generator_0'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_generator_0_1/design_1_pulse_generator_0_1/design_1_pulse_generator_0_0_in_context.xdc] for cell 'design_1_i/pulse_generator_1'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_generator_0_1/design_1_pulse_generator_0_1/design_1_pulse_generator_0_0_in_context.xdc] for cell 'design_1_i/pulse_generator_1'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_generator_0_2/design_1_pulse_generator_0_2/design_1_pulse_generator_0_0_in_context.xdc] for cell 'design_1_i/pulse_generator_2'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_generator_0_2/design_1_pulse_generator_0_2/design_1_pulse_generator_0_0_in_context.xdc] for cell 'design_1_i/pulse_generator_2'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_generator_2_0/design_1_pulse_generator_2_0/design_1_pulse_generator_0_0_in_context.xdc] for cell 'design_1_i/pulse_generator_3'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_generator_2_0/design_1_pulse_generator_2_0/design_1_pulse_generator_0_0_in_context.xdc] for cell 'design_1_i/pulse_generator_3'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_detector_0_0/design_1_pulse_detector_0_0/design_1_pulse_detector_0_0_in_context.xdc] for cell 'design_1_i/pulse_detector_0'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_detector_0_0/design_1_pulse_detector_0_0/design_1_pulse_detector_0_0_in_context.xdc] for cell 'design_1_i/pulse_detector_0'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_detector_0_1/design_1_pulse_detector_0_1/design_1_pulse_detector_0_0_in_context.xdc] for cell 'design_1_i/pulse_detector_1'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_detector_0_1/design_1_pulse_detector_0_1/design_1_pulse_detector_0_0_in_context.xdc] for cell 'design_1_i/pulse_detector_1'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_detector_0_2/design_1_pulse_detector_0_2/design_1_pulse_detector_0_0_in_context.xdc] for cell 'design_1_i/pulse_detector_2'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_detector_0_2/design_1_pulse_detector_0_2/design_1_pulse_detector_0_0_in_context.xdc] for cell 'design_1_i/pulse_detector_2'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_detector_0_3/design_1_pulse_detector_0_3/design_1_pulse_detector_0_0_in_context.xdc] for cell 'design_1_i/pulse_detector_3'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_pulse_detector_0_3/design_1_pulse_detector_0_3/design_1_pulse_detector_0_0_in_context.xdc] for cell 'design_1_i/pulse_detector_3'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_debouncer_0_5/design_1_debouncer_0_5/design_1_debouncer_0_5_in_context.xdc] for cell 'design_1_i/debouncer_0'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_debouncer_0_5/design_1_debouncer_0_5/design_1_debouncer_0_5_in_context.xdc] for cell 'design_1_i/debouncer_0'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_debouncer_1_0/design_1_debouncer_1_0/design_1_debouncer_1_0_in_context.xdc] for cell 'design_1_i/debouncer_1'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_debouncer_1_0/design_1_debouncer_1_0/design_1_debouncer_1_0_in_context.xdc] for cell 'design_1_i/debouncer_1'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_debouncer_2_0/design_1_debouncer_2_0/design_1_debouncer_1_0_in_context.xdc] for cell 'design_1_i/debouncer_2'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_debouncer_2_0/design_1_debouncer_2_0/design_1_debouncer_1_0_in_context.xdc] for cell 'design_1_i/debouncer_2'
+Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_debouncer_3_0/design_1_debouncer_3_0/design_1_debouncer_1_0_in_context.xdc] for cell 'design_1_i/debouncer_3'
+Finished Parsing XDC File [c:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ip/design_1_debouncer_3_0/design_1_debouncer_3_0/design_1_debouncer_1_0_in_context.xdc] for cell 'design_1_i/debouncer_3'
+Parsing XDC File [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/constrs_1/new/vending_machine.xdc]
+Finished Parsing XDC File [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/constrs_1/new/vending_machine.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/constrs_1/new/vending_machine.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1517.883 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1517.883 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/vending_machine_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/pulse_generator_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/pulse_generator_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/pulse_generator_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/pulse_generator_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/pulse_detector_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/pulse_detector_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/pulse_detector_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/pulse_detector_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/xlslice_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/xlslice_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/debouncer_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/debouncer_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/debouncer_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/debouncer_3. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port Din[31] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[30] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[29] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[28] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[27] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[26] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[25] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[24] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[23] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[22] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[21] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[20] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[19] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[18] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[17] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[16] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[15] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[14] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[13] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[12] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[11] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[10] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[9] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[8] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[7] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[6] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[5] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[4] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[3] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[2] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[1] in module design_1_xlslice_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[31] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[30] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[29] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[28] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[27] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[26] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[25] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[24] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[23] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[22] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[21] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[20] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[19] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[18] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[17] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[16] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[15] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[14] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[13] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[12] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[11] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[10] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[9] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[8] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[7] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[6] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[5] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[4] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[3] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[2] in module design_1_xlslice_0_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Din[1] in module design_1_xlslice_0_0 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------+----------+
+|      |BlackBox name                |Instances |
++------+-----------------------------+----------+
+|1     |design_1_debouncer_0_5       |         1|
+|2     |design_1_debouncer_1_0       |         1|
+|3     |design_1_debouncer_2_0       |         1|
+|4     |design_1_debouncer_3_0       |         1|
+|5     |design_1_pulse_detector_0_0  |         1|
+|6     |design_1_pulse_detector_0_1  |         1|
+|7     |design_1_pulse_detector_0_2  |         1|
+|8     |design_1_pulse_detector_0_3  |         1|
+|9     |design_1_pulse_generator_0_0 |         1|
+|10    |design_1_pulse_generator_0_1 |         1|
+|11    |design_1_pulse_generator_0_2 |         1|
+|12    |design_1_pulse_generator_2_0 |         1|
+|13    |design_1_vending_machine_0_0 |         1|
++------+-----------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------------+------+
+|      |Cell                              |Count |
++------+----------------------------------+------+
+|1     |design_1_debouncer_0_5_bbox       |     1|
+|2     |design_1_debouncer_1_0_bbox       |     1|
+|3     |design_1_debouncer_2_0_bbox       |     1|
+|4     |design_1_debouncer_3_0_bbox       |     1|
+|5     |design_1_pulse_detector_0_0_bbox  |     1|
+|6     |design_1_pulse_detector_0_1_bbox  |     1|
+|7     |design_1_pulse_detector_0_2_bbox  |     1|
+|8     |design_1_pulse_detector_0_3_bbox  |     1|
+|9     |design_1_pulse_generator_0_0_bbox |     1|
+|10    |design_1_pulse_generator_0_1_bbox |     1|
+|11    |design_1_pulse_generator_0_2_bbox |     1|
+|12    |design_1_pulse_generator_2_0_bbox |     1|
+|13    |design_1_vending_machine_0_0_bbox |     1|
+|14    |IBUF                              |     6|
+|15    |OBUF                              |     4|
++------+----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1517.883 ; gain = 559.879
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 63 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:25 . Memory (MB): peak = 1517.883 ; gain = 559.879
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 1517.883 ; gain = 559.879
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1517.883 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1517.883 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 5cb2dbf6
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 95 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 1517.883 ; gain = 989.840
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1517.883 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  8 18:18:08 2025...

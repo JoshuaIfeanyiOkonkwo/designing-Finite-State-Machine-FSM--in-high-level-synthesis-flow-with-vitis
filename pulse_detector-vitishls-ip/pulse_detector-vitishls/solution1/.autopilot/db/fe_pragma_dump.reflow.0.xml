@@ -1,0 +1,6 @@
+<pragmas>
+<pragma file="src/pulse_detector.cpp" line="29" pragmaType="interface" parentfunction="pulse_detector" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="src/pulse_detector.cpp" line="30" pragmaType="interface" parentfunction="pulse_detector" mode="ap_none" port="pulse" name="" register="0"/>
+<pragma file="src/pulse_detector.cpp" line="31" pragmaType="interface" parentfunction="pulse_detector" mode="ap_none" port="reset" name="" register="0"/>
+<pragma file="src/pulse_detector.cpp" line="32" pragmaType="interface" parentfunction="pulse_detector" mode="ap_none" port="out_r" name="" register="0"/>
+</pragmas>

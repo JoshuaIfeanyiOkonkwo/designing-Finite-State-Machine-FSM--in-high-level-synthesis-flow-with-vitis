@@ -1,0 +1,171 @@
+
+
+================================================================
+== Vitis HLS Report for 'vending_machine'
+================================================================
+* Date:           Mon Dec 15 21:27:19 2025
+
+* Version:        2024.1 (Build 5069499 on May 21 2024)
+* Project:        hls_vending_machine
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.204 ns|     0.50 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 0
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 1
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 5.20>
+ST_1 : Operation 2 [1/1] (0.00ns)   --->   "%spectopmodule_ln33 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_1" [vending_machine-vitishls-files/vending_machine.cpp:33]   --->   Operation 2 'spectopmodule' 'spectopmodule_ln33' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 3 [1/1] (0.00ns)   --->   "%specinterface_ln33 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_2, i32 0, i32 0, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0" [vending_machine-vitishls-files/vending_machine.cpp:33]   --->   Operation 3 'specinterface' 'specinterface_ln33' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 4 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %nickel_in"   --->   Operation 4 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %nickel_in, void @empty, i32 4294967295, i32 4294967295, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 5 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %dime_in"   --->   Operation 6 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 7 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %dime_in, void @empty, i32 4294967295, i32 4294967295, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 7 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %quarter_in"   --->   Operation 8 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %quarter_in, void @empty, i32 4294967295, i32 4294967295, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 9 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %thanks_in"   --->   Operation 10 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 11 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %thanks_in, void @empty, i32 4294967295, i32 4294967295, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 11 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %candy_out"   --->   Operation 12 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %candy_out, void @empty, i32 4294967295, i32 4294967295, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 13 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %nickel_out"   --->   Operation 14 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i1 %nickel_out, void @empty, i32 4294967295, i32 4294967295, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 15 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i2 %dime_out"   --->   Operation 16 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i2 %dime_out, void @empty, i32 4294967295, i32 4294967295, void @empty_0, i32 0, i32 0, void @empty_0, void @empty_0, void @empty_0, i32 0, i32 0, i32 0, i32 0, void @empty_0, void @empty_0, i32 4294967295, i32 0, i32 0"   --->   Operation 17 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.00ns)   --->   "%thanks_in_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %thanks_in" [vending_machine-vitishls-files/vending_machine.cpp:35]   --->   Operation 18 'read' 'thanks_in_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 19 [1/1] (0.00ns)   --->   "%quarter_in_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %quarter_in" [vending_machine-vitishls-files/vending_machine.cpp:35]   --->   Operation 19 'read' 'quarter_in_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 20 [1/1] (0.00ns)   --->   "%dime_in_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %dime_in" [vending_machine-vitishls-files/vending_machine.cpp:35]   --->   Operation 20 'read' 'dime_in_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 21 [1/1] (0.00ns)   --->   "%nickel_in_read = read i1 @_ssdm_op_Read.ap_none.i1, i1 %nickel_in" [vending_machine-vitishls-files/vending_machine.cpp:35]   --->   Operation 21 'read' 'nickel_in_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 22 [1/1] (0.00ns)   --->   "%s_next = load i32 %s" [vending_machine-vitishls-files/vending_machine.cpp:60]   --->   Operation 22 'load' 's_next' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 23 [1/1] (0.97ns)   --->   "%or_ln79 = or i1 %dime_in_read, i1 %quarter_in_read" [vending_machine-vitishls-files/vending_machine.cpp:79]   --->   Operation 23 'or' 'or_ln79' <Predicate = true> <Delay = 0.97> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 24 [1/1] (2.60ns)   --->   "%switch_ln69 = switch i32 %s_next, void %sw.default, i32 0, void %sw.bb, i32 1, void %sw.bb7, i32 2, void %sw.bb18, i32 3, void %sw.bb29, i32 4, void %sw.bb40, i32 5, void %sw.bb51, i32 6, void %sw.bb53, i32 7, void %sw.bb55, i32 8, void %sw.bb57, i32 9, void %sw.epilog, i32 10, void %sw.bb61" [vending_machine-vitishls-files/vending_machine.cpp:69]   --->   Operation 24 'switch' 'switch_ln69' <Predicate = true> <Delay = 2.60>
+ST_1 : Operation 25 [1/1] (1.21ns)   --->   "%select_ln189 = select i1 %thanks_in_read, i32 0, i32 10" [vending_machine-vitishls-files/vending_machine.cpp:189]   --->   Operation 25 'select' 'select_ln189' <Predicate = (s_next == 10)> <Delay = 1.21> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.21> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 26 [1/1] (2.60ns)   --->   "%br_ln189 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:189]   --->   Operation 26 'br' 'br_ln189' <Predicate = (s_next == 10)> <Delay = 2.60>
+ST_1 : Operation 27 [1/1] (2.60ns)   --->   "%br_ln172 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:172]   --->   Operation 27 'br' 'br_ln172' <Predicate = (s_next == 8)> <Delay = 2.60>
+ST_1 : Operation 28 [1/1] (2.60ns)   --->   "%br_ln165 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:165]   --->   Operation 28 'br' 'br_ln165' <Predicate = (s_next == 7)> <Delay = 2.60>
+ST_1 : Operation 29 [1/1] (2.60ns)   --->   "%br_ln158 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:158]   --->   Operation 29 'br' 'br_ln158' <Predicate = (s_next == 6)> <Delay = 2.60>
+ST_1 : Operation 30 [1/1] (2.60ns)   --->   "%br_ln151 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:151]   --->   Operation 30 'br' 'br_ln151' <Predicate = (s_next == 5)> <Delay = 2.60>
+ST_1 : Operation 31 [1/1] (2.60ns)   --->   "%br_ln136 = br i1 %nickel_in_read, void %if.else43, void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:136]   --->   Operation 31 'br' 'br_ln136' <Predicate = (s_next == 4)> <Delay = 2.60>
+ST_1 : Operation 32 [1/1] (0.00ns) (grouped into LUT with out node select_ln138)   --->   "%select_ln138_1 = select i1 %dime_in_read, i4 6, i4 9" [vending_machine-vitishls-files/vending_machine.cpp:138]   --->   Operation 32 'select' 'select_ln138_1' <Predicate = (s_next == 4 & !nickel_in_read & or_ln79)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 33 [1/1] (1.02ns) (out node of the LUT)   --->   "%select_ln138 = select i1 %or_ln79, i4 %select_ln138_1, i4 4" [vending_machine-vitishls-files/vending_machine.cpp:138]   --->   Operation 33 'select' 'select_ln138' <Predicate = (s_next == 4 & !nickel_in_read)> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 34 [1/1] (0.00ns)   --->   "%zext_ln138 = zext i4 %select_ln138" [vending_machine-vitishls-files/vending_machine.cpp:138]   --->   Operation 34 'zext' 'zext_ln138' <Predicate = (s_next == 4 & !nickel_in_read)> <Delay = 0.00>
+ST_1 : Operation 35 [1/1] (2.60ns)   --->   "%br_ln138 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:138]   --->   Operation 35 'br' 'br_ln138' <Predicate = (s_next == 4 & !nickel_in_read)> <Delay = 2.60>
+ST_1 : Operation 36 [1/1] (2.60ns)   --->   "%br_ln122 = br i1 %nickel_in_read, void %if.else32, void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:122]   --->   Operation 36 'br' 'br_ln122' <Predicate = (s_next == 3)> <Delay = 2.60>
+ST_1 : Operation 37 [1/1] (0.00ns) (grouped into LUT with out node select_ln124)   --->   "%select_ln124_1 = select i1 %dime_in_read, i4 5, i4 8" [vending_machine-vitishls-files/vending_machine.cpp:124]   --->   Operation 37 'select' 'select_ln124_1' <Predicate = (s_next == 3 & !nickel_in_read & or_ln79)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 38 [1/1] (1.02ns) (out node of the LUT)   --->   "%select_ln124 = select i1 %or_ln79, i4 %select_ln124_1, i4 3" [vending_machine-vitishls-files/vending_machine.cpp:124]   --->   Operation 38 'select' 'select_ln124' <Predicate = (s_next == 3 & !nickel_in_read)> <Delay = 1.02> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 1.02> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 39 [1/1] (0.00ns)   --->   "%zext_ln124 = zext i4 %select_ln124" [vending_machine-vitishls-files/vending_machine.cpp:124]   --->   Operation 39 'zext' 'zext_ln124' <Predicate = (s_next == 3 & !nickel_in_read)> <Delay = 0.00>
+ST_1 : Operation 40 [1/1] (2.60ns)   --->   "%br_ln124 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:124]   --->   Operation 40 'br' 'br_ln124' <Predicate = (s_next == 3 & !nickel_in_read)> <Delay = 2.60>
+ST_1 : Operation 41 [1/1] (2.60ns)   --->   "%br_ln108 = br i1 %nickel_in_read, void %if.else21, void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:108]   --->   Operation 41 'br' 'br_ln108' <Predicate = (s_next == 2)> <Delay = 2.60>
+ST_1 : Operation 42 [1/1] (0.00ns) (grouped into LUT with out node select_ln110)   --->   "%select_ln110_1 = select i1 %dime_in_read, i3 4, i3 7" [vending_machine-vitishls-files/vending_machine.cpp:110]   --->   Operation 42 'select' 'select_ln110_1' <Predicate = (s_next == 2 & !nickel_in_read & or_ln79)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 43 [1/1] (0.98ns) (out node of the LUT)   --->   "%select_ln110 = select i1 %or_ln79, i3 %select_ln110_1, i3 2" [vending_machine-vitishls-files/vending_machine.cpp:110]   --->   Operation 43 'select' 'select_ln110' <Predicate = (s_next == 2 & !nickel_in_read)> <Delay = 0.98> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%zext_ln110 = zext i3 %select_ln110" [vending_machine-vitishls-files/vending_machine.cpp:110]   --->   Operation 44 'zext' 'zext_ln110' <Predicate = (s_next == 2 & !nickel_in_read)> <Delay = 0.00>
+ST_1 : Operation 45 [1/1] (2.60ns)   --->   "%br_ln110 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:110]   --->   Operation 45 'br' 'br_ln110' <Predicate = (s_next == 2 & !nickel_in_read)> <Delay = 2.60>
+ST_1 : Operation 46 [1/1] (2.60ns)   --->   "%br_ln93 = br i1 %nickel_in_read, void %if.else10, void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:93]   --->   Operation 46 'br' 'br_ln93' <Predicate = (s_next == 1)> <Delay = 2.60>
+ST_1 : Operation 47 [1/1] (0.00ns) (grouped into LUT with out node select_ln95)   --->   "%select_ln95_1 = select i1 %dime_in_read, i3 3, i3 6" [vending_machine-vitishls-files/vending_machine.cpp:95]   --->   Operation 47 'select' 'select_ln95_1' <Predicate = (s_next == 1 & !nickel_in_read & or_ln79)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 48 [1/1] (0.98ns) (out node of the LUT)   --->   "%select_ln95 = select i1 %or_ln79, i3 %select_ln95_1, i3 1" [vending_machine-vitishls-files/vending_machine.cpp:95]   --->   Operation 48 'select' 'select_ln95' <Predicate = (s_next == 1 & !nickel_in_read)> <Delay = 0.98> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 49 [1/1] (0.00ns)   --->   "%zext_ln95 = zext i3 %select_ln95" [vending_machine-vitishls-files/vending_machine.cpp:95]   --->   Operation 49 'zext' 'zext_ln95' <Predicate = (s_next == 1 & !nickel_in_read)> <Delay = 0.00>
+ST_1 : Operation 50 [1/1] (2.60ns)   --->   "%br_ln95 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:95]   --->   Operation 50 'br' 'br_ln95' <Predicate = (s_next == 1 & !nickel_in_read)> <Delay = 2.60>
+ST_1 : Operation 51 [1/1] (2.60ns)   --->   "%br_ln77 = br i1 %nickel_in_read, void %if.else, void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:77]   --->   Operation 51 'br' 'br_ln77' <Predicate = (s_next == 0)> <Delay = 2.60>
+ST_1 : Operation 52 [1/1] (0.00ns) (grouped into LUT with out node select_ln79)   --->   "%select_ln79_1 = select i1 %dime_in_read, i3 2, i3 5" [vending_machine-vitishls-files/vending_machine.cpp:79]   --->   Operation 52 'select' 'select_ln79_1' <Predicate = (s_next == 0 & !nickel_in_read & or_ln79)> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 53 [1/1] (0.98ns) (out node of the LUT)   --->   "%select_ln79 = select i1 %or_ln79, i3 %select_ln79_1, i3 0" [vending_machine-vitishls-files/vending_machine.cpp:79]   --->   Operation 53 'select' 'select_ln79' <Predicate = (s_next == 0 & !nickel_in_read)> <Delay = 0.98> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.98> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 54 [1/1] (0.00ns)   --->   "%zext_ln79 = zext i3 %select_ln79" [vending_machine-vitishls-files/vending_machine.cpp:79]   --->   Operation 54 'zext' 'zext_ln79' <Predicate = (s_next == 0 & !nickel_in_read)> <Delay = 0.00>
+ST_1 : Operation 55 [1/1] (2.60ns)   --->   "%br_ln79 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:79]   --->   Operation 55 'br' 'br_ln79' <Predicate = (s_next == 0 & !nickel_in_read)> <Delay = 2.60>
+ST_1 : Operation 56 [1/1] (2.60ns)   --->   "%br_ln192 = br void %sw.epilog" [vending_machine-vitishls-files/vending_machine.cpp:192]   --->   Operation 56 'br' 'br_ln192' <Predicate = (s_next != 0 & s_next != 1 & s_next != 2 & s_next != 3 & s_next != 4 & s_next != 5 & s_next != 6 & s_next != 7 & s_next != 8 & s_next != 9 & s_next != 10)> <Delay = 2.60>
+ST_1 : Operation 57 [1/1] (0.00ns)   --->   "%s_next_1 = phi i32 %s_next, void %sw.default, i32 %select_ln189, void %sw.bb61, i32 10, void %sw.bb57, i32 10, void %sw.bb55, i32 10, void %sw.bb53, i32 10, void %sw.bb51, i32 %zext_ln138, void %if.else43, i32 %zext_ln124, void %if.else32, i32 %zext_ln110, void %if.else21, i32 %zext_ln95, void %if.else10, i32 %zext_ln79, void %if.else, i32 10, void %entry, i32 1, void %sw.bb, i32 2, void %sw.bb7, i32 3, void %sw.bb18, i32 4, void %sw.bb29, i32 5, void %sw.bb40"   --->   Operation 57 'phi' 's_next_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 58 [1/1] (0.00ns)   --->   "%candy_out_local = phi i1 0, void %sw.default, i1 0, void %sw.bb61, i1 1, void %sw.bb57, i1 1, void %sw.bb55, i1 1, void %sw.bb53, i1 1, void %sw.bb51, i1 0, void %if.else43, i1 0, void %if.else32, i1 0, void %if.else21, i1 0, void %if.else10, i1 0, void %if.else, i1 1, void %entry, i1 0, void %sw.bb, i1 0, void %sw.bb7, i1 0, void %sw.bb18, i1 0, void %sw.bb29, i1 0, void %sw.bb40"   --->   Operation 58 'phi' 'candy_out_local' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 59 [1/1] (0.00ns)   --->   "%nickel_out_local = phi i1 0, void %sw.default, i1 0, void %sw.bb61, i1 1, void %sw.bb57, i1 0, void %sw.bb55, i1 1, void %sw.bb53, i1 0, void %sw.bb51, i1 0, void %if.else43, i1 0, void %if.else32, i1 0, void %if.else21, i1 0, void %if.else10, i1 0, void %if.else, i1 0, void %entry, i1 0, void %sw.bb, i1 0, void %sw.bb7, i1 0, void %sw.bb18, i1 0, void %sw.bb29, i1 0, void %sw.bb40"   --->   Operation 59 'phi' 'nickel_out_local' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 60 [1/1] (0.00ns)   --->   "%dime_out_local = phi i2 0, void %sw.default, i2 0, void %sw.bb61, i2 1, void %sw.bb57, i2 1, void %sw.bb55, i2 0, void %sw.bb53, i2 0, void %sw.bb51, i2 0, void %if.else43, i2 0, void %if.else32, i2 0, void %if.else21, i2 0, void %if.else10, i2 0, void %if.else, i2 3, void %entry, i2 0, void %sw.bb, i2 0, void %sw.bb7, i2 0, void %sw.bb18, i2 0, void %sw.bb29, i2 0, void %sw.bb40"   --->   Operation 60 'phi' 'dime_out_local' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 61 [1/1] (0.00ns)   --->   "%store_ln196 = store i32 %s_next_1, i32 %s" [vending_machine-vitishls-files/vending_machine.cpp:196]   --->   Operation 61 'store' 'store_ln196' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 62 [1/1] (0.00ns)   --->   "%write_ln198 = write void @_ssdm_op_Write.ap_none.i1P0A, i1 %candy_out, i1 %candy_out_local" [vending_machine-vitishls-files/vending_machine.cpp:198]   --->   Operation 62 'write' 'write_ln198' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 63 [1/1] (0.00ns)   --->   "%write_ln199 = write void @_ssdm_op_Write.ap_none.i1P0A, i1 %nickel_out, i1 %nickel_out_local" [vending_machine-vitishls-files/vending_machine.cpp:199]   --->   Operation 63 'write' 'write_ln199' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 64 [1/1] (0.00ns)   --->   "%write_ln200 = write void @_ssdm_op_Write.ap_none.i2P0A, i2 %dime_out, i2 %dime_out_local" [vending_machine-vitishls-files/vending_machine.cpp:200]   --->   Operation 64 'write' 'write_ln200' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 65 [1/1] (0.00ns)   --->   "%ret_ln206 = ret" [vending_machine-vitishls-files/vending_machine.cpp:206]   --->   Operation 65 'ret' 'ret_ln206' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10.000ns, clock uncertainty: 0.500ns.
+
+ <State 1>: 5.204ns
+The critical path consists of the following:
+	'load' operation 32 bit ('s_next', vending_machine-vitishls-files/vending_machine.cpp:60) on static variable 's' [29]  (0.000 ns)
+	multiplexor before 'phi' operation 32 bit ('s_next') with incoming values : ('s_next', vending_machine-vitishls-files/vending_machine.cpp:60) ('select_ln189', vending_machine-vitishls-files/vending_machine.cpp:189) ('zext_ln138', vending_machine-vitishls-files/vending_machine.cpp:138) ('zext_ln124', vending_machine-vitishls-files/vending_machine.cpp:124) ('zext_ln110', vending_machine-vitishls-files/vending_machine.cpp:110) ('zext_ln95', vending_machine-vitishls-files/vending_machine.cpp:95) ('zext_ln79', vending_machine-vitishls-files/vending_machine.cpp:79) [81]  (2.602 ns)
+	multiplexor before 'phi' operation 32 bit ('s_next') with incoming values : ('s_next', vending_machine-vitishls-files/vending_machine.cpp:60) ('select_ln189', vending_machine-vitishls-files/vending_machine.cpp:189) ('zext_ln138', vending_machine-vitishls-files/vending_machine.cpp:138) ('zext_ln124', vending_machine-vitishls-files/vending_machine.cpp:124) ('zext_ln110', vending_machine-vitishls-files/vending_machine.cpp:110) ('zext_ln95', vending_machine-vitishls-files/vending_machine.cpp:95) ('zext_ln79', vending_machine-vitishls-files/vending_machine.cpp:79) [81]  (2.602 ns)
+	'phi' operation 32 bit ('s_next') with incoming values : ('s_next', vending_machine-vitishls-files/vending_machine.cpp:60) ('select_ln189', vending_machine-vitishls-files/vending_machine.cpp:189) ('zext_ln138', vending_machine-vitishls-files/vending_machine.cpp:138) ('zext_ln124', vending_machine-vitishls-files/vending_machine.cpp:124) ('zext_ln110', vending_machine-vitishls-files/vending_machine.cpp:110) ('zext_ln95', vending_machine-vitishls-files/vending_machine.cpp:95) ('zext_ln79', vending_machine-vitishls-files/vending_machine.cpp:79) [81]  (0.000 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

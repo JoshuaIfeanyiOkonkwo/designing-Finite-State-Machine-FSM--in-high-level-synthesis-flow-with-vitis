@@ -1,0 +1,38 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ipshared/333f/hdl/vhdl/vending_machine.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'vending_machine'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_vending_machine_0_0/sim/design_1_vending_machine_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_vending_machine_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ipshared/ed96/hdl/vhdl/pulse_generator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pulse_generator'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_generator_0_0/sim/design_1_pulse_generator_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_pulse_generator_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_generator_0_1/sim/design_1_pulse_generator_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_pulse_generator_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_generator_0_2/sim/design_1_pulse_generator_0_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_pulse_generator_0_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_generator_2_0/sim/design_1_pulse_generator_2_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_pulse_generator_2_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ipshared/aa7e/hdl/vhdl/pulse_detector.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pulse_detector'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_detector_0_0/sim/design_1_pulse_detector_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_pulse_detector_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_detector_0_1/sim/design_1_pulse_detector_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_pulse_detector_0_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_detector_0_2/sim/design_1_pulse_detector_0_2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_pulse_detector_0_2'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_pulse_detector_0_3/sim/design_1_pulse_detector_0_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_pulse_detector_0_3'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/ipshared/3026/hdl/vhdl/debouncer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'debouncer'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_0_5/sim/design_1_debouncer_0_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_debouncer_0_5'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_1_0/sim/design_1_debouncer_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_debouncer_1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_2_0/sim/design_1_debouncer_2_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_debouncer_2_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/ip/design_1_debouncer_3_0/sim/design_1_debouncer_3_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_debouncer_3_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.ip_user_files/bd/design_1/sim/design_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_1_wrapper'

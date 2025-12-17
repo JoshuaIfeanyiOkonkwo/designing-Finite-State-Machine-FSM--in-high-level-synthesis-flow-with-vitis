@@ -1,0 +1,60 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.05147",
+   "Default View_TopLeft":"-488,-30",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port port-id_GCLK -pg 1 -lvl 0 -x -400 -y -10 -defaultsOSRD
+preplace port port-id_SW0 -pg 1 -lvl 0 -x -400 -y 20 -defaultsOSRD
+preplace port port-id_BTNL -pg 1 -lvl 0 -x -400 -y 230 -defaultsOSRD
+preplace port port-id_BTNR -pg 1 -lvl 0 -x -400 -y 90 -defaultsOSRD
+preplace port port-id_BTNC -pg 1 -lvl 0 -x -400 -y 370 -defaultsOSRD
+preplace port port-id_BTND -pg 1 -lvl 0 -x -400 -y 510 -defaultsOSRD
+preplace port port-id_LED3 -pg 1 -lvl 6 -x 1320 -y 60 -defaultsOSRD
+preplace port port-id_LED2 -pg 1 -lvl 6 -x 1320 -y 220 -defaultsOSRD
+preplace port port-id_LED1 -pg 1 -lvl 6 -x 1320 -y 380 -defaultsOSRD
+preplace port port-id_LED0 -pg 1 -lvl 6 -x 1320 -y 540 -defaultsOSRD
+preplace inst vending_machine_0 -pg 1 -lvl 3 -x 650 -y 240 -defaultsOSRD
+preplace inst pulse_generator_0 -pg 1 -lvl 2 -x 340 -y 210 -defaultsOSRD
+preplace inst pulse_generator_1 -pg 1 -lvl 2 -x 340 -y 70 -defaultsOSRD
+preplace inst pulse_generator_2 -pg 1 -lvl 2 -x 340 -y 350 -defaultsOSRD
+preplace inst pulse_generator_3 -pg 1 -lvl 2 -x 340 -y 490 -defaultsOSRD
+preplace inst pulse_detector_0 -pg 1 -lvl 5 -x 1180 -y 60 -defaultsOSRD
+preplace inst pulse_detector_1 -pg 1 -lvl 5 -x 1180 -y 220 -defaultsOSRD
+preplace inst pulse_detector_2 -pg 1 -lvl 5 -x 1180 -y 380 -defaultsOSRD
+preplace inst pulse_detector_3 -pg 1 -lvl 5 -x 1180 -y 540 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 4 -x 920 -y 400 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 4 -x 920 -y 580 -defaultsOSRD
+preplace inst debouncer_0 -pg 1 -lvl 1 -x 50 -y 100 -defaultsOSRD
+preplace inst debouncer_1 -pg 1 -lvl 1 -x 50 -y 240 -defaultsOSRD
+preplace inst debouncer_2 -pg 1 -lvl 1 -x 50 -y 380 -defaultsOSRD
+preplace inst debouncer_3 -pg 1 -lvl 1 -x 50 -y 520 -defaultsOSRD
+preplace netloc BTNC_1 1 0 1 -380 370n
+preplace netloc BTND_1 1 0 1 -380 510n
+preplace netloc BTNL_1 1 0 1 -380 230n
+preplace netloc BTNR_1 1 0 1 -70 90n
+preplace netloc ap_clk_0_1 1 0 5 -90J 0 200 -10 490 30 N 30 1070
+preplace netloc ap_rst_0_1 1 0 5 -80J 20 180 -20 500 50 N 50 1040
+preplace netloc debouncer_0_btn_out 1 1 1 170 90n
+preplace netloc debouncer_1_btn_out 1 1 1 190 230n
+preplace netloc debouncer_2_btn_out 1 1 1 210 370n
+preplace netloc debouncer_3_btn_out 1 1 1 170 510n
+preplace netloc pulse_detector_0_out_r 1 5 1 N 60
+preplace netloc pulse_detector_1_out_r 1 5 1 N 220
+preplace netloc pulse_detector_2_out_r 1 5 1 N 380
+preplace netloc pulse_detector_3_out_r 1 5 1 N 540
+preplace netloc pulse_generator_0_pulse 1 2 1 470 210n
+preplace netloc pulse_generator_1_pulse 1 2 1 480 70n
+preplace netloc pulse_generator_2_pulse 1 2 1 470 270n
+preplace netloc pulse_generator_3_pulse 1 2 3 500 350 820 340 1060
+preplace netloc vending_machine_0_candy_out 1 3 2 800 70 NJ
+preplace netloc vending_machine_0_dime_out 1 3 1 810 260n
+preplace netloc vending_machine_0_nickel_out 1 3 2 800 230 NJ
+preplace netloc xlslice_0_Dout 1 4 1 1050 390n
+preplace netloc xlslice_1_Dout 1 4 1 1070 550n
+levelinfo -pg 1 -400 50 340 650 920 1180 1320
+pagesize -pg 1 -db -bbox -sgen -510 -310 1480 850
+"
+}
+0

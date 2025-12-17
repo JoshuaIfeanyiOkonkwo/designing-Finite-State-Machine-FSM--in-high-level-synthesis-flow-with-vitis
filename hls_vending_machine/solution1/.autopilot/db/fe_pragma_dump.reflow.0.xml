@@ -1,0 +1,14 @@
+<pragmas>
+<pragma file="vending_machine-vitishls-files/vending_machine.cpp" line="45" pragmaType="interface" parentfunction="vending_machine" mode="ap_none" port="nickel_in" name="" register="0"/>
+<pragma file="vending_machine-vitishls-files/vending_machine.cpp" line="46" pragmaType="interface" parentfunction="vending_machine" mode="ap_none" port="dime_in" name="" register="0"/>
+<pragma file="vending_machine-vitishls-files/vending_machine.cpp" line="47" pragmaType="interface" parentfunction="vending_machine" mode="ap_none" port="quarter_in" name="" register="0"/>
+<pragma file="vending_machine-vitishls-files/vending_machine.cpp" line="48" pragmaType="interface" parentfunction="vending_machine" mode="ap_none" port="thanks_in" name="" register="0"/>
+<pragma file="vending_machine-vitishls-files/vending_machine.cpp" line="50" pragmaType="interface" parentfunction="vending_machine" mode="ap_none" port="candy_out" name="" register="0"/>
+<pragma file="vending_machine-vitishls-files/vending_machine.cpp" line="51" pragmaType="interface" parentfunction="vending_machine" mode="ap_none" port="nickel_out" name="" register="0"/>
+<pragma file="vending_machine-vitishls-files/vending_machine.cpp" line="52" pragmaType="interface" parentfunction="vending_machine" mode="ap_none" port="dime_out" name="" register="0"/>
+<pragma file="vending_machine-vitishls-files/vending_machine.cpp" line="54" pragmaType="interface" parentfunction="vending_machine" mode="ap_ctrl_none" port="return" name=""/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_uint<2>::ap_uint(int)" off="0" region="0" recursive="0"/>
+<pragma file="C:/Xilinx/Vitis_HLS/2024.1/common/technology/autopilot\etc/ap_common.h" line="523" pragmaType="inline" parentfunction="_ZN8ssdm_intILi2ELb0EEC2EDq2_j" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="ap_int_base<2, false>::ap_int_base(int)" off="0" region="0" recursive="0"/>
+<pragma file="" line="0" pragmaType="inline" parentfunction="checkOverflowBaseC" off="0" region="0" recursive="0"/>
+</pragmas>

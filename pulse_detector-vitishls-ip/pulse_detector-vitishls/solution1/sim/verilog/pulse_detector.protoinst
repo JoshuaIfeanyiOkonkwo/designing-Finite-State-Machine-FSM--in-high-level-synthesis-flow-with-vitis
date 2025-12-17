@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"pulse_detector": {
+			"proto_instances": {
+			}
+		}
+	}
+}

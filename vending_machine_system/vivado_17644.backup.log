@@ -1,0 +1,222 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Dec  6 03:12:18 2025
+# Process ID: 17644
+# Current directory: C:/Users/joshu/Desktop/exercise_5/vending_machine_system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30528 C:\Users\joshu\Desktop\exercise_5\vending_machine_system\vending_machine_system.xpr
+# Log file: C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vivado.log
+# Journal file: C:/Users/joshu/Desktop/exercise_5/vending_machine_system\vivado.jou
+# Running On        :LAPTOP-TSMU9UUL
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2803 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16856 MB
+# Swap memory       :40802 MB
+# Total Virtual     :57658 MB
+# Available Virtual :24398 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/hls_vending_machine'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/pulse_detector-vitishls-ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/pulse_generator-vitishls-ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/debouncer-vitishls-files'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2024.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_debouncer_0_4
+design_1_vending_machine_0_0
+design_1_debouncer_0_1
+design_1_debouncer_0_2
+design_1_debouncer_0_3
+
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:11 . Memory (MB): peak = 1502.828 ; gain = 384.055
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file <C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:hls:vending_machine:1.0 - vending_machine_0
+Adding component instance block -- xilinx.com:hls:pulse_generator:1.0 - pulse_generator_0
+Adding component instance block -- xilinx.com:hls:debouncer:1.0 - debouncer_0
+Adding component instance block -- xilinx.com:hls:pulse_generator:1.0 - pulse_generator_1
+Adding component instance block -- xilinx.com:hls:debouncer:1.0 - debouncer_1
+Adding component instance block -- xilinx.com:hls:debouncer:1.0 - debouncer_2
+Adding component instance block -- xilinx.com:hls:debouncer:1.0 - debouncer_3
+Adding component instance block -- xilinx.com:hls:pulse_generator:1.0 - pulse_generator_2
+Adding component instance block -- xilinx.com:hls:pulse_generator:1.0 - pulse_generator_3
+Adding component instance block -- xilinx.com:hls:pulse_detector:1.0 - pulse_detector_0
+Adding component instance block -- xilinx.com:hls:pulse_detector:1.0 - pulse_detector_1
+Adding component instance block -- xilinx.com:hls:pulse_detector:1.0 - pulse_detector_2
+Adding component instance block -- xilinx.com:hls:pulse_detector:1.0 - pulse_detector_3
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - xlslice_1
+Successfully read diagram <design_1> from block design file <C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1626.922 ; gain = 96.465
+update_ip_catalog -rebuild -repo_path c:/Users/joshu/Desktop/exercise_5/debouncer-vitishls-files
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/debouncer-vitishls-files'
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:debouncer:1.0 debouncer_4
+endgroup
+delete_bd_objs [get_bd_cells debouncer_4]
+delete_bd_objs [get_bd_nets btn_in_0_2] [get_bd_nets debouncer_1_btn_out] [get_bd_cells debouncer_1]
+delete_bd_objs [get_bd_nets btn_in_0_1] [get_bd_nets debouncer_0_btn_out] [get_bd_cells debouncer_0]
+delete_bd_objs [get_bd_nets btn_in_0_3] [get_bd_nets debouncer_2_btn_out] [get_bd_cells debouncer_2]
+delete_bd_objs [get_bd_nets btn_in_0_4] [get_bd_nets debouncer_3_btn_out] [get_bd_cells debouncer_3]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:debouncer:1.0 debouncer_0
+endgroup
+set_property location {1 1 100} [get_bd_cells debouncer_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:debouncer:1.0 debouncer_1
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:debouncer:1.0 debouncer_2
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:debouncer:1.0 debouncer_3
+endgroup
+set_property location {1 59 506} [get_bd_cells debouncer_3]
+set_property location {1 51 372} [get_bd_cells debouncer_2]
+set_property location {1 54 236} [get_bd_cells debouncer_1]
+set_property location {1 65 103} [get_bd_cells debouncer_0]
+connect_bd_net [get_bd_pins debouncer_0/btn_out] [get_bd_pins pulse_generator_1/input_r]
+connect_bd_net [get_bd_pins debouncer_1/btn_out] [get_bd_pins pulse_generator_0/input_r]
+connect_bd_net [get_bd_pins debouncer_2/btn_out] [get_bd_pins pulse_generator_2/input_r]
+connect_bd_net [get_bd_pins debouncer_3/btn_out] [get_bd_pins pulse_generator_3/input_r]
+connect_bd_net [get_bd_ports GCLK] [get_bd_pins debouncer_0/ap_clk]
+connect_bd_net [get_bd_ports SW0] [get_bd_pins debouncer_0/ap_rst]
+connect_bd_net [get_bd_ports GCLK] [get_bd_pins debouncer_1/ap_clk]
+connect_bd_net [get_bd_ports BTNR] [get_bd_pins debouncer_0/btn_in]
+connect_bd_net [get_bd_ports BTNL] [get_bd_pins debouncer_1/ap_rst]
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_ports BTNL] [get_bd_pins debouncer_1/ap_rst]'
+connect_bd_net [get_bd_ports BTNL] [get_bd_pins debouncer_1/ap_rst]
+delete_bd_objs [get_bd_nets BTNL_1]
+connect_bd_net [get_bd_ports SW0] [get_bd_pins debouncer_1/ap_rst]
+connect_bd_net [get_bd_ports BTNL] [get_bd_pins debouncer_1/btn_in]
+connect_bd_net [get_bd_ports GCLK] [get_bd_pins debouncer_2/ap_clk]
+connect_bd_net [get_bd_ports SW0] [get_bd_pins debouncer_2/ap_rst]
+connect_bd_net [get_bd_ports BTNC] [get_bd_pins debouncer_2/btn_in]
+connect_bd_net [get_bd_ports GCLK] [get_bd_pins debouncer_3/ap_clk]
+connect_bd_net [get_bd_ports SW0] [get_bd_pins debouncer_3/ap_rst]
+connect_bd_net [get_bd_ports BTND] [get_bd_pins debouncer_3/btn_in]
+save_bd_design
+Wrote  : <C:\Users\joshu\Desktop\exercise_5\vending_machine_system\vending_machine_system.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+make_wrapper -files [get_files C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd] -top
+ERROR: [BD 41-1665] Unable to generate top-level wrapper HDL for the block design 'design_1.bd' is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+design_1_vending_machine_0_0
+
+ERROR: [Common 17-39] 'make_wrapper' failed due to earlier errors.
+make_wrapper -files [get_files C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd] -top
+ERROR: [BD 41-1665] Unable to generate top-level wrapper HDL for the block design 'design_1.bd' is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+design_1_vending_machine_0_0
+
+ERROR: [Common 17-39] 'make_wrapper' failed due to earlier errors.
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: c:/Users/joshu/Desktop/exercise_5/debouncer-vitishls-files/debouncer/solution1/impl/ip/component.xml. It will be created.
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/hls_vending_machine'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/pulse_detector-vitishls-ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/pulse_generator-vitishls-ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/joshu/Desktop/exercise_5/debouncer-vitishls-files'.
+report_ip_status -name ip_status
+upgrade_ip [get_ips  {design_1_debouncer_1_0 design_1_debouncer_0_5 design_1_debouncer_3_0 design_1_debouncer_2_0}] -log ip_upgrade.log
+Upgrading 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3422] Upgraded design_1_debouncer_0_5 (Debouncer 1.0) from revision 2114378945 to revision 2114378962
+INFO: [IP_Flow 19-3422] Upgraded design_1_debouncer_1_0 (Debouncer 1.0) from revision 2114378945 to revision 2114378962
+INFO: [IP_Flow 19-3422] Upgraded design_1_debouncer_2_0 (Debouncer 1.0) from revision 2114378945 to revision 2114378962
+INFO: [IP_Flow 19-3422] Upgraded design_1_debouncer_3_0 (Debouncer 1.0) from revision 2114378945 to revision 2114378962
+Wrote  : <C:\Users\joshu\Desktop\exercise_5\vending_machine_system\vending_machine_system.srcs\sources_1\bd\design_1\design_1.bd> 
+Wrote  : <C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/joshu/Desktop/exercise_5/vending_machine_system/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {design_1_debouncer_1_0 design_1_debouncer_0_5 design_1_debouncer_3_0 design_1_debouncer_2_0}] -no_script -sync -force -quiet
+make_wrapper -files [get_files C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd] -top
+ERROR: [BD 41-1665] Unable to generate top-level wrapper HDL for the block design 'design_1.bd' is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+design_1_vending_machine_0_0
+
+ERROR: [Common 17-39] 'make_wrapper' failed due to earlier errors.
+make_wrapper -files [get_files C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd] -top
+ERROR: [BD 41-1665] Unable to generate top-level wrapper HDL for the block design 'design_1.bd' is locked. Locked reason(s):
+* Block design contains locked IPs. Please run report_ip_status for more details and recommendations on how to fix this issue. 
+List of locked IPs: 
+design_1_vending_machine_0_0
+
+ERROR: [Common 17-39] 'make_wrapper' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  6 03:29:59 2025...

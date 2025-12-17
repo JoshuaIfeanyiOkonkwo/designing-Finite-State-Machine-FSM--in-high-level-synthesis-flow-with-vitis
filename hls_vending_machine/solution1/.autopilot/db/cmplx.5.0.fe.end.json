@@ -1,0 +1,17 @@
+{
+    "0": {
+        "name": "vending_machine",
+        "file": "vending_machine.cpp",
+        "fileloc": "33",
+        "instructions": "64",
+        "total_instructions": "64",
+        "calls": "",
+        "basicblocks": "18",
+        "loads": {
+            "G": "1"
+        },
+        "stores": {
+            "G": "1"
+        }
+    }
+}

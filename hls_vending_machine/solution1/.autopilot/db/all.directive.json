@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "vending_machine",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "vending_machine"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "C:/Users/joshu/Desktop/exercise_5/hls_vending_machine/solution1/csynth.tcl",
+    "sourceLine": 18,
+    "success": true
+  }
+]

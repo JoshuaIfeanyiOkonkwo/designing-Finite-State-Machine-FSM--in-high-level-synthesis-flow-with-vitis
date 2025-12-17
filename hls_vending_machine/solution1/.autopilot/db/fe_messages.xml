@@ -1,0 +1,30 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/joshu/Desktop/exercise_5/hls_vending_machine/solution1/csynth.tcl:18:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="vending_machine" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=vending_machine" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="vending_machine-vitishls-files/vending_machine.cpp:45:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vending_machine" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=nickel_in" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="vending_machine-vitishls-files/vending_machine.cpp:46:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vending_machine" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=dime_in" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="vending_machine-vitishls-files/vending_machine.cpp:47:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vending_machine" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=quarter_in" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="vending_machine-vitishls-files/vending_machine.cpp:48:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vending_machine" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=thanks_in" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="vending_machine-vitishls-files/vending_machine.cpp:50:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vending_machine" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=candy_out" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="vending_machine-vitishls-files/vending_machine.cpp:51:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vending_machine" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=nickel_out" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="vending_machine-vitishls-files/vending_machine.cpp:52:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vending_machine" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_none port=dime_out" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="vending_machine-vitishls-files/vending_machine.cpp:54:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="vending_machine" ARG_PragmaIsValid="1" ARG_PragmaOptions="ap_ctrl_none port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

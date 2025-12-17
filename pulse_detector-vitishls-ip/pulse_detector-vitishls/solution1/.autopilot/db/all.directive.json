@@ -1,0 +1,23 @@
+[
+  {
+    "functionLabel": "",
+    "functionName": "pulse_detector",
+    "id": 0,
+    "ifcond": "",
+    "insert_position": "",
+    "label": "",
+    "pragma": {
+      "name": "TOP",
+      "option": [
+        {
+          "name": "name",
+          "value": "pulse_detector"
+        }
+      ]
+    },
+    "slx": false,
+    "sourceFile": "/home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_detector-vitishls-ip/pulse_detector-vitishls/solution1/csynth.tcl",
+    "sourceLine": 17,
+    "success": true
+  }
+]

@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"pulse_generator": {
+			"proto_instances": {
+			}
+		}
+	}
+}

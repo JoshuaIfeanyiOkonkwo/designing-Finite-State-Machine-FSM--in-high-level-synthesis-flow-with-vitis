@@ -1,0 +1,82 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Sat Dec  6 03:12:18 2025
+# Process ID: 17644
+# Current directory: C:/Users/joshu/Desktop/exercise_5/vending_machine_system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent30528 C:\Users\joshu\Desktop\exercise_5\vending_machine_system\vending_machine_system.xpr
+# Log file: C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vivado.log
+# Journal file: C:/Users/joshu/Desktop/exercise_5/vending_machine_system\vivado.jou
+# Running On        :LAPTOP-TSMU9UUL
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26200
+# Processor Detail  :11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+# CPU Frequency     :2803 MHz
+# CPU Physical cores:4
+# CPU Logical cores :8
+# Host memory       :16856 MB
+# Swap memory       :40802 MB
+# Total Virtual     :57658 MB
+# Available Virtual :24398 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd}
+update_ip_catalog -rebuild -repo_path c:/Users/joshu/Desktop/exercise_5/debouncer-vitishls-files
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:debouncer:1.0 debouncer_4
+endgroup
+delete_bd_objs [get_bd_cells debouncer_4]
+delete_bd_objs [get_bd_nets btn_in_0_2] [get_bd_nets debouncer_1_btn_out] [get_bd_cells debouncer_1]
+delete_bd_objs [get_bd_nets btn_in_0_1] [get_bd_nets debouncer_0_btn_out] [get_bd_cells debouncer_0]
+delete_bd_objs [get_bd_nets btn_in_0_3] [get_bd_nets debouncer_2_btn_out] [get_bd_cells debouncer_2]
+delete_bd_objs [get_bd_nets btn_in_0_4] [get_bd_nets debouncer_3_btn_out] [get_bd_cells debouncer_3]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:debouncer:1.0 debouncer_0
+endgroup
+set_property location {1 1 100} [get_bd_cells debouncer_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:debouncer:1.0 debouncer_1
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:debouncer:1.0 debouncer_2
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:hls:debouncer:1.0 debouncer_3
+endgroup
+set_property location {1 59 506} [get_bd_cells debouncer_3]
+set_property location {1 51 372} [get_bd_cells debouncer_2]
+set_property location {1 54 236} [get_bd_cells debouncer_1]
+set_property location {1 65 103} [get_bd_cells debouncer_0]
+connect_bd_net [get_bd_pins debouncer_0/btn_out] [get_bd_pins pulse_generator_1/input_r]
+connect_bd_net [get_bd_pins debouncer_1/btn_out] [get_bd_pins pulse_generator_0/input_r]
+connect_bd_net [get_bd_pins debouncer_2/btn_out] [get_bd_pins pulse_generator_2/input_r]
+connect_bd_net [get_bd_pins debouncer_3/btn_out] [get_bd_pins pulse_generator_3/input_r]
+connect_bd_net [get_bd_ports GCLK] [get_bd_pins debouncer_0/ap_clk]
+connect_bd_net [get_bd_ports SW0] [get_bd_pins debouncer_0/ap_rst]
+connect_bd_net [get_bd_ports GCLK] [get_bd_pins debouncer_1/ap_clk]
+connect_bd_net [get_bd_ports BTNR] [get_bd_pins debouncer_0/btn_in]
+connect_bd_net [get_bd_ports BTNL] [get_bd_pins debouncer_1/ap_rst]
+undo
+connect_bd_net [get_bd_ports BTNL] [get_bd_pins debouncer_1/ap_rst]
+delete_bd_objs [get_bd_nets BTNL_1]
+connect_bd_net [get_bd_ports SW0] [get_bd_pins debouncer_1/ap_rst]
+connect_bd_net [get_bd_ports BTNL] [get_bd_pins debouncer_1/btn_in]
+connect_bd_net [get_bd_ports GCLK] [get_bd_pins debouncer_2/ap_clk]
+connect_bd_net [get_bd_ports SW0] [get_bd_pins debouncer_2/ap_rst]
+connect_bd_net [get_bd_ports BTNC] [get_bd_pins debouncer_2/btn_in]
+connect_bd_net [get_bd_ports GCLK] [get_bd_pins debouncer_3/ap_clk]
+connect_bd_net [get_bd_ports SW0] [get_bd_pins debouncer_3/ap_rst]
+connect_bd_net [get_bd_ports BTND] [get_bd_pins debouncer_3/btn_in]
+save_bd_design
+make_wrapper -files [get_files C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd] -top
+make_wrapper -files [get_files C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd] -top
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip [get_ips  {design_1_debouncer_1_0 design_1_debouncer_0_5 design_1_debouncer_3_0 design_1_debouncer_2_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {design_1_debouncer_1_0 design_1_debouncer_0_5 design_1_debouncer_3_0 design_1_debouncer_2_0}] -no_script -sync -force -quiet
+make_wrapper -files [get_files C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd] -top
+make_wrapper -files [get_files C:/Users/joshu/Desktop/exercise_5/vending_machine_system/vending_machine_system.srcs/sources_1/bd/design_1/design_1.bd] -top

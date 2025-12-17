@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /home/minh/Documents/UTU-work-related/VHDL_2024/exercise_5/vending-machine/pulse_detector-vitishls-ip/pulse_detector-vitishls/solution1/./sim/autowrap/testbench/pulse_detector.cpp_pre.cpp.tb.cpp

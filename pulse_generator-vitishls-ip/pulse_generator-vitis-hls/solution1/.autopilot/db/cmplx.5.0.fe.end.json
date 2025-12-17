@@ -1,0 +1,17 @@
+{
+    "0": {
+        "name": "pulse_generator",
+        "file": "pulse_generator.cpp",
+        "fileloc": "5",
+        "instructions": "13",
+        "total_instructions": "13",
+        "calls": "",
+        "basicblocks": "1",
+        "loads": {
+            "G": "1"
+        },
+        "stores": {
+            "G": "1"
+        }
+    }
+}

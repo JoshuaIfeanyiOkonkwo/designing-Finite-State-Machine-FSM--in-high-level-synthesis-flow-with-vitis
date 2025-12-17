@@ -1,0 +1,2 @@
+current_fileset
+open_wave_database vending_machine.wdb
