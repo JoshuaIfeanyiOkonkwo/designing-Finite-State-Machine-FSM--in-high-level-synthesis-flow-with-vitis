@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="debouncer.cpp" path="C:\Users\joshu\Desktop\exercise_5\debouncer-vitishls-files\debouncer.cpp"/>
+    <originFiles name="debouncer.h" path="C:\Users\joshu\Desktop\exercise_5\debouncer-vitishls-files\debouncer.h"/>
+  </source>
+  <testbench>
+    <originFiles name="debouncer-tb.cpp" path="C:\Users\joshu\Desktop\exercise_5\debouncer-vitishls-files\debouncer-tb.cpp"/>
+    <originFiles name="debouncer-tb.h" path="C:\Users\joshu\Desktop\exercise_5\debouncer-vitishls-files\debouncer-tb.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

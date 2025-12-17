@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'counter' is power-on initialization." projectName="debouncer" solutionName="solution1" date="2025-12-08T18:14:10.987+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'state' is power-on initialization." projectName="debouncer" solutionName="solution1" date="2025-12-08T18:14:10.968+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Port 'btn_out' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port." projectName="debouncer" solutionName="solution1" date="2025-12-08T18:14:10.930+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -location' command is deprecated and will be removed in a future release." projectName="debouncer" solutionName="solution1" date="2025-12-08T18:14:00.156+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -name' command is deprecated and will be removed in a future release." projectName="debouncer" solutionName="solution1" date="2025-12-08T18:14:00.135+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl&#xD;&#xA;Sourcing Tcl script 'C:/Users/joshu/Desktop/exercise_5/debouncer-vitishls-files/debouncer/solution1/csynth.tcl'" projectName="debouncer" solutionName="solution1" date="2025-12-08T18:13:58.470+0200" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -location' command is deprecated and will be removed in a future release." projectName="debouncer" solutionName="solution1" date="2025-12-08T18:14:36.966+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-484] The 'set_directive_top -name' command is deprecated and will be removed in a future release." projectName="debouncer" solutionName="solution1" date="2025-12-08T18:14:36.956+0200" type="Warning"/>
+        <logs message="WARNING: [HLS 200-2053] The vitis_hls executable is deprecated. Consider using vitis-run --mode hls --tcl&#xD;&#xA;Sourcing Tcl script 'C:/Users/joshu/Desktop/exercise_5/debouncer-vitishls-files/debouncer/solution1/export.tcl'" projectName="debouncer" solutionName="solution1" date="2025-12-08T18:14:35.822+0200" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

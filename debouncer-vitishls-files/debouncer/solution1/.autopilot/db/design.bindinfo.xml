@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BindInfo>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op seteq" ID="" IMPL="auto" LATENCY="0" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln45_fu_91_p2" SOURCE="debouncer.cpp:45" VARIABLE="icmp_ln45" MODULE="debouncer" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op add" ID="" IMPL="fabric" LATENCY="0" OPTYPE="add" PRAGMA="" RTLNAME="add_ln46_fu_97_p2" SOURCE="debouncer.cpp:46" VARIABLE="add_ln46" MODULE="debouncer" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+	<BindNode BINDTYPE="op" DISPLAY="bind_op seteq" ID="" IMPL="auto" LATENCY="0" OPTYPE="seteq" PRAGMA="" RTLNAME="icmp_ln48_fu_110_p2" SOURCE="debouncer.cpp:48" VARIABLE="icmp_ln48" MODULE="debouncer" LOOP="" BUNDLEDNAME="" DSP="0" BRAM="0" URAM="0" USAGE="" STORAGESUBTYPE="" STORAGESIZE=""/>
+</BindInfo>
