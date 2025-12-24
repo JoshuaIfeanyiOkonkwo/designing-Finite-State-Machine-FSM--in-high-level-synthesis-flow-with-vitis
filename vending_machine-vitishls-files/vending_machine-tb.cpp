@@ -1,3 +1,6 @@
+// License:: Joshua Ifeanyi Okonkwo
+
+
 #include "vending_machine-tb.h"
 #include <iostream>
 
