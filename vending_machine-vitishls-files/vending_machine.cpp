@@ -1,3 +1,5 @@
+// License:: Joshua Ifeanyi Okonkwo
+
 #include "vending_machine.h"
 
 // state definitions
